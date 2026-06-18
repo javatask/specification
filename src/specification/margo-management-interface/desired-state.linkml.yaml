@@ -19,7 +19,7 @@ classes:
     description: A class representing the desired state of an entity.
     attributes:
       apiVersion:
-        description: Same as the OpenAPI version and follow semantic versioning.
+        description: Same as the Margo's OpenAPI specification version and follow semantic versioning.
         required: true
         range: string
         rank: 10
