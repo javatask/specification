@@ -1,6 +1,6 @@
 # Demonstrates validation of kind field
 # Invalid kind of Kubernetes custom resource.
-apiVersion: margo.org/v1-alpha1
+apiVersion: 1.0.0
 # `kind` != `ApplicationDescription`
 kind: SomethingErroneous
 id: com-northstartida-hello-world

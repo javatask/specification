@@ -21,7 +21,7 @@ classes:
     description: Root class for an application description.
     attributes:
       apiVersion:
-        description: Identifier of the version of the API the object definition follows.
+        description: Same as the OpenAPI version and follow semantic versioning.
         required: true
         range: string
         rank: 10

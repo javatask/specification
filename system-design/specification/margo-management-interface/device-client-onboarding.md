@@ -67,7 +67,6 @@ POST /api/v1/onboarding
 
 | Fields       | Type            | Required?       | Description     |
 |-----------------|-----------------|-----------------|-----------------|
-| apiVersion      | string    | Y    | Identifier of the version the API resource follows.|
 | kind            | string    | Y    | Must be `OnboardingRequest`.|
 | certificate    | string    | Y    | Base64-encoded X.509 certificate of the client. |
 
@@ -75,7 +74,6 @@ POST /api/v1/onboarding
 
 ```json
 { 
-  "apiVersion": "onboarding.margo.org/v1alpha1",
   "kind": "OnboardingRequest",
   "certificate": "MIIDdzCCAl+gAwIBAgIEb1...<truncated Base64 X.509 cert>...."
 }

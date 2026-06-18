@@ -39,7 +39,6 @@ DELETE /api/v1/clients/{clientId}/capabilities/{deviceId}
 
 | Field      | Type            | Required?       | Description     |
 |-----------------|-----------------|-----------------|-----------------|
-| apiVersion      | string    | Y    | Identifier of the version the API resource follows.|
 | kind            | string    | Y    | Must be `DeviceCapabilitiesManifest`.|
 | properties        | Properties    | Y    | Element that defines characteristics about the device. See the [Properties Fields](#properties-attributes) section below. |
 
@@ -130,7 +129,6 @@ These enumerations are used as vocabularies for attribute values of the `DeviceC
 
 ```json
 {
-    "apiVersion": "device.margo.org/v1alpha1",
     "kind": "DeviceCapabilitiesManifest",
     "properties": {
         "id": "northstarida.xtapro.k8s.edge",
@@ -198,7 +196,6 @@ A WFM client reporting the "Gateway" role MUST report its own capabilities to th
     ```
     ```json
     {
-        "apiVersion": "device.margo.org/v1alpha1",
         "kind": "DeviceCapabilitiesManifest",
         "properties": {
             "id": "gateway1",
@@ -219,8 +216,7 @@ A WFM client reporting the "Gateway" role MUST report its own capabilities to th
     ```
     ```json
     {
-        "apiVersion": "device.margo.org/v1alpha1",
-        "kind": "DeviceCapabilitiesManifest",
+         "kind": "DeviceCapabilitiesManifest",
         "properties": {
             "id": "gateway1",
             "vendor": "Gateway Vendor",
@@ -257,8 +253,7 @@ A WFM client reporting the "Gateway" role MUST report its own capabilities to th
     ```
     ```json
     {
-        "apiVersion": "device.margo.org/v1alpha1",
-        "kind": "DeviceCapabilitiesManifest",
+         "kind": "DeviceCapabilitiesManifest",
         "properties": {
             "id": "gateway1/deviceA",
             "vendor": "Device A Vendor",
@@ -300,8 +295,7 @@ A WFM client reporting the "Gateway" role MUST report its own capabilities to th
     ```
     ```json
     {
-        "apiVersion": "device.margo.org/v1alpha1",
-        "kind": "DeviceCapabilitiesManifest",
+         "kind": "DeviceCapabilitiesManifest",
         "properties": {
             "id": "gateway1/path1/deviceA",
             "vendor": "Device A Vendor",

@@ -19,7 +19,7 @@ classes:
     description: A class representing the desired state of an entity.
     attributes:
       apiVersion:
-        description: Identifier of the version of the API the object definition follows.
+        description: Same as the OpenAPI version and follow semantic versioning.
         required: true
         range: string
         rank: 10
