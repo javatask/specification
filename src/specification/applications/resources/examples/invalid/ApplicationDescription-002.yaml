@@ -1,6 +1,6 @@
 # Demonstrates validation of id field
 # Invalid id format being defined in this test
-apiVersion: 1.0.0
+apiVersion: margo.org/v1-alpha1
 kind: ApplicationDescription
 id: an-incorrect-id-with-special-chars**&%
 metadata:

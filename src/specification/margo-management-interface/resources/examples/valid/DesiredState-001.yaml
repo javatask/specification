@@ -1,4 +1,4 @@
-apiVersion: 1.0.0
+apiVersion: application.margo.org/v1alpha1
 kind: ApplicationDeployment
 id: a3e2f5dc-912e-494f-8395-52cf3769bc06
 metadata:
