@@ -19,7 +19,7 @@ classes:
     description: A class representing the desired state of an entity.
     attributes:
       apiVersion:
-        description: Same as the Margo's OpenAPI specification version and follow semantic versioning.
+        description: Version of the ApplicationDeployment document. This is independent of the OpenAPI specification version and API route version. MUST be one of the Margo defined stable value.
         required: true
         range: string
         rank: 10

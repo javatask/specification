@@ -607,7 +607,7 @@ components:
       properties:
         apiVersion:
           type: string
-          default: 1.0.0
+          default: application.margo.org/v1alpha1
           description: API version
         kind:
           type: string
